@@ -16,7 +16,7 @@ def invert(img):
     cv2.imwrite(filename, img)
     
 filepath = input("enter a filepath: ")
-directory = r"C:\Users\gohal\OneDrive\Documents\Aaron Digital Learning\2021-2022 year\Semester 2\Art\Aaron's Game Sprites\mario game\test"
+directory = r"C:\Users\usename\Downloads"
 os.chdir(directory)
 print(f"file will be saved in {directory}")
 print("Loading...")
